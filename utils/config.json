@@ -1,0 +1,25 @@
+{
+  "app_name": "migration_tool",
+  "databases": [
+    {
+      "module_name": "MySQLdb",
+      "connection_string": {
+        "host": "host",
+        "user": "user",
+        "passwd": "passwd",
+        "db": "db",
+        "driver": null
+      }
+    },
+    {
+      "module_name": "pyodbc",
+      "connection_string": {
+        "host": "server",
+        "user": "uid",
+        "pwd": "pwd",
+        "db": "Database",
+        "driver": "{SQL Server Native Client 11.0}"
+      }
+    }
+  ]
+}
